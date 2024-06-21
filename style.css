@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+header {
+    padding: 40px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+VIC:wght@100..400&display=swap');
+
+ 
+
+
+h1 {
+    color: white;
+    margin: auto;
+    text-align: center;
+    font-family: fantasy;
+    font-style: italic;
+    box-shadow: 2 px 2px 2px black;
+    font-size: 50px;
+    font-variant: small-caps;
+    
+   
+}
+ h2 {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    
+    text-shadow: 2px 2px 2px black;
+}
+
+
+
+body {
+    background-color: black;
+    
+    
+}
+main {
+    background-color: white;
+    font-size: 2vw;
+    font-family: "Playwrite AU VIC", cursive;
+    padding: 60px;
+}
+.imagem {
+    background-color: gray;
+    
+    
+    font-family: "Playwrite AU VIC", cursive;
+    padding: 60px;
+    color: white;
+    margin: 0;
+    font-size: 2vw;
+    margin: 0;
+    box-shadow: inset 6px 6px 13px 0 px black;
+    background-attachment: fixed;
+    
+    
+    
+}
+.imagem > p {
+    background-color: rgba(0, 0, 0, 0.329);
+    width: 400px;
+    padding-left: 30px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 0;
+    border: 0;
+    text-align: center;
+    font-style: italic;
+}
+
+#img01 {
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+#img02 {
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+    background-size: cover;
+    
+}
+section {
+    box-shadow: 6px 6px 13px 0px black;
+}
